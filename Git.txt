@@ -6,3 +6,4 @@ Git learning
 3. To add file to the stage: git add filename
 4.To commit the code: git commit -m "new commit msg"
 5 To push the commit: git push origin master
+6. To pull the commuts: git pull origin master
