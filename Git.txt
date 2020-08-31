@@ -1,1 +1,7 @@
 Git
+Git learning
+
+1. To clone repository: git clone  https://github.com/KiranDS89/JavaLearning.git
+2. To check current status: git status
+3. To add file to the stage: git add filename
+4.
