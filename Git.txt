@@ -11,3 +11,4 @@ Git learning
 My Commands
 cd ..    back
 cd foldername in the foldername
+clear
