@@ -1,5 +1,5 @@
 Git
-Git learning - pratik
+Git learning - kiran
 
 1. To clone repository: git clone  https://github.com/KiranDS89/JavaLearning.git
 2. To check current status: git status
