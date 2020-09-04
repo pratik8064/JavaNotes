@@ -1,5 +1,5 @@
 Git
-Git learning - pratik
+Git learning -
 
 1. To clone repository: git clone  https://github.com/KiranDS89/JavaLearning.git
 2. To check current status: git status
@@ -7,6 +7,7 @@ Git learning - pratik
 4.To commit the code: git commit -m "new commit msg"
 5 To push the commit: git push origin master
 6. To pull the commits: git pull origin master
+
 
 My Commands
 cd ..    back
