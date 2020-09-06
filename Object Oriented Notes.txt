@@ -1,0 +1,18 @@
+Object Oriented Notes
+
+1.member variables 
+
+
+2.Class methods
+3.Instance of Class
+4.this keyword
+5.Access specifier like public or private. by default protected 
+6.default Constructor (no argument constructor)
+7.custom Constructor
+8.default Constructor gets overriden by custom Constructor so we have to write new Constructor like default constructor like empty.
+9.Constructor overloading
+10.Static keyword
+11.Static method
+12.Static variables
+13.Accessing variable inside Static method.
+14. Final keyword.

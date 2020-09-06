@@ -1,0 +1,4 @@
+Short Cuts of eclipse
+
+Ctrl + shift + slash   to comment code
+Ctrl+ A then Ctrl + shift + F     indentation code (adjust )
