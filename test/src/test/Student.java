@@ -3,13 +3,14 @@
  */
 package test;
 
+import java.util.HashMap;
+
 /**
  * @author Pratik Suryawanshi
  *
  */
 
 // Encapsulation
-
 
 public class Student {
 	
@@ -21,6 +22,8 @@ public class Student {
 	private String address;
 	private String location;
 	private Boolean isGrad;
+	private HashMap<String, Integer> grades;
+	
 	
 	public Student() {
 		
