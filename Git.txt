@@ -14,3 +14,5 @@ My Commands
 cd ..    back
 cd foldername in the foldername
 clear
+ls :- by default visible files and directories
+ls -a   show hidden files and directories

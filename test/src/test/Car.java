@@ -23,9 +23,11 @@ public class Car {
 
 	}
 
-	Car() {
-
-	}
+	
+	  Car() {
+	  
+	  }
+	 
 	
 
 	public Car(int wheelsCount, int numberOfSeats, int windows) {

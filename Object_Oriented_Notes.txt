@@ -49,7 +49,7 @@ b- Local- within scope of method including "Method input argument"
         this keyword is used
 
 
-8.default Constructor gets overriden by custom Constructor so we have to write new Constructor like default constructor like empty.
+8.default Constructor gets bypass by custom Constructor so we have to write new Constructor like default constructor like empty.
 
 
 9*.Constructor overloading =
@@ -58,6 +58,7 @@ b- Local- within scope of method including "Method input argument"
     types of the parameters and order of the parameters.
 
     Constructor calling must be the first statement of constructor in Java.
+
 If we have defined any parameterized constructor, then compiler will not create default constructor. 
 and vice versa if we don’t define any constructor, the compiler creates the default constructor by default during compilation
 
@@ -67,15 +68,16 @@ and vice versa if we don’t define any constructor, the compiler creates the de
     and without reference to any object
      keyword which is used to share the same variable or method of a given class. Basically, static is used for a constant variable or
     a method that is same for every instance of a class
+    
 
 
 11.Static method-
     it belongs to class and not to obj.
      can be accessed directly by the class name and doesn’t need any object.
-
+    Only static variables can be used, member variables are not allowed.
 12.Static variables-
     variable belongs to class(not to instance of obj) and initialized only once at start of execution.
-
+    
 13.Accessing variable inside Static method.
     We cannot directly access the instance variables within a static method because a static method can only access static variables or static methods.
 

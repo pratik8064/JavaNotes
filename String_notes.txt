@@ -1,0 +1,91 @@
+String notes - 
+String initialisation - by default null value 
+Empty String = “”;
+Empty String = new String();
+
+
+Declaration - cant use same variable
+
+Run time error (logic) - Array OutOfBoundary
+                          NullpointException
+
+ public String firstTwo(String xyz) {
+  
+  
+  if (xyz.length()<=2){
+    return (xyz);
+    
+  }else{
+     String abc = xyz.substring(0,2); 
+      return (abc);
+    }
+  
+}
+
+
+
+
+
+08-11-2020
+
+String Concat()
+ 	    String s1 = new String("Kiran");
+	    String s2 = new String("Suryawanshi");
+	    System.out.println(s1.concat(s2));
+	    String s3 = s1.concat(s2);
+	    System.out.println(s3);
+
+
+substring() - s1.substring(index);
+After index 1 including
+substring() - s1.substring(index1,index2);
+After index 1 including index 1 excluding index2
+
+
+
+String charAt() - 
+String Compareto()
+String Contains() -
+String endsWith()
+String equals() -
+String IgnoreCase() -
+String format()
+String getBytes()
+String getChars()
+String isEmpty() -
+String indexOf() -
+String intern()
+String join() -
+String length()-
+String replace()-
+String lastIndexOf()
+String replaceAll()-
+String split()---
+String substring()-
+String startsWith()
+String toCharArray()
+String toLowerCase() -
+String toUpperCase()-
+String valueOf() -
+String trim() -
+
+
+	
+
+STRING METHODS
+
+str.substring(i,j)  returns string which starts with index i upto j but not including j.
+If str.substring(i) returns   from i to end of length
+
+Str.length returns length of string.
+
+str1.equals(str2).
+Do not use == operator for comparing 2 strings
+
+missingChar(“string”,i)= strng
+
+Compare 2 string by using .equals and not .compare to
+
+
+
+
