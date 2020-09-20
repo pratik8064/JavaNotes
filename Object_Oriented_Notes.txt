@@ -50,9 +50,13 @@ b- Local- within scope of method including "Method input argument"
 
 
 8.default Constructor gets bypass by custom Constructor so we have to write new Constructor like default constructor like empty.
+8.default Constructor gets overriden by custom Constructor, so we have to write new Constructor like default constructor like empty.
+    1. default constructor privided by system if no constructor is wrriten.
+    2. if you write any custom constructor then default constructor gets overriden, if  you want to use constructor with no arguments then
+        you will have to create one.
+    3. if using inheritance, system will try to call default constructor of parent class. if is is not there then you will get error.
 
-
-9*.Constructor overloading =
+9 Constructor overloading =
 
     Compiler differentiates constructors on the basis of numbers of parameters, 
     types of the parameters and order of the parameters.

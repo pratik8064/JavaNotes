@@ -11,7 +11,7 @@ class Test {
 	
 	public static void main(String[] args) {
 	
-	Car c1 = new Car();
+	/*Car c1 = new Car();
 	c1.setNumberOfSeats(6);
 	c1.setColour("Black");
 	c1.setWheelsCount(4);
@@ -27,6 +27,21 @@ class Test {
 	System.out.println(c2.printCarDetails());
 	Car c3 = new Car(4,6,4);
 	System.out.println(c3.printCarDetails());
+	
+	*/
+		
+		Student s = new Student();
+		
+		//s.test();   // method override
+		
+		s.test(5); // method overload
+		
+		
+		Animal a = new Animal();
+		a.canWalk();
+		
+		System.out.println();
+		
 	}
 	
 	

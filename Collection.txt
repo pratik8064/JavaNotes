@@ -1,0 +1,13 @@
+Java collections
+
+- used to store/persist/set and retrive/fetch/get data or search in specific manner
+
+
+
+1. ArrayList
+    
+
+
+2. HashMap
+
+

@@ -1,0 +1,21 @@
+Object oriented concepts
+
+1. Abstraction
+- interface
+- abstract class
+- difference between abstract and interface
+
+
+2. Inheritance
+
+- dimond problem
+- method overriding - signature same but implementation different        
+    1. method with same signature but with different implementation
+    2. gets checked at runtime
+- method overloading
+    1. signature different, implementation same/different
+    2.gets checked at compile time.
+-super keyword
+    - can be used with variable
+    - can be used with method
+    - can be used with constuctor

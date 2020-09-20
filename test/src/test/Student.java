@@ -12,30 +12,22 @@ import java.util.HashMap;
 
 // Encapsulation
 
-public class Student {
+public class Student extends Person implements Walkable {
 	
 	// class variables
 	// member variables
-	private String name;
 	private int rollNumber;
-	private String contactNo;
-	private String address;
 	private String location;
 	private Boolean isGrad;
 	private HashMap<String, Integer> grades;
-	
+	int marks = 100;
 	
 	public Student() {
-		
-	}
-	
-	public Student(String name) {
-		this.name = name;
+		//super();
 	}
 	
 	public Student(String name, int rollNumber, String contactNo, String address, String location, Boolean isGrad) {
-		super();
-		this.name = name;
+		super(name);
 		this.rollNumber = rollNumber;
 		this.contactNo = contactNo;
 		this.address = address;
@@ -64,15 +56,7 @@ public class Student {
 	
 	// class methods
 	// camel case
-	// getter method
-	public String getName() {
-		return name;
-	}
-	
-	// setter method
-	public void setName(String name) {
-		this.name = name;
-	}
+	// getter method	
 
 	public int getRollNumber() {
 		return rollNumber;
@@ -89,23 +73,6 @@ public class Student {
 	public void setIsGrad(Boolean isGrad) {
 		this.isGrad = isGrad;
 	}
-
-
-	public String getContactNo() {
-		return contactNo;
-	}
-
-	public void setContactNo(String contactNo) {
-		this.contactNo = contactNo;
-	}
-
-	public String getAddress() {
-		return address;
-	}
-
-	public void setAddress(String address) {
-		this.address = address;
-	}
 	
 	private String getLocation() {
 		return this.location;
@@ -117,6 +84,35 @@ public class Student {
 	
 	public boolean isInIndia() {
 		return getLocation().equals("India");
+	}
+	
+	public void test() {
+		
+		System.out.println("This is test method : " + super.marks + " in student");
+		
+	}
+	
+	public void test(int x) {
+		super.test();
+		System.out.println("This is test with "+ x +"method in student");
+	}
+
+	/* (non-Javadoc)
+	 * @see test.Walkable#canWalk()
+	 */
+	@Override
+	public boolean canWalk() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	/* (non-Javadoc)
+	 * @see test.Walkable#getLegs()
+	 */
+	@Override
+	public int getLegs() {
+		// TODO Auto-generated method stub
+		return 0;
 	}
 	
 	// Student file changes

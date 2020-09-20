@@ -1,0 +1,16 @@
+TODO
+
+coding
+
+1. while loop
+2. passing object refrence in method
+3. switch statement
+
+
+concepts
+
+1. heap and stack
+2. type casting : https://www.geeksforgeeks.org/type-conversion-java-examples/
+3. string pool
+4. objects equals and hashcode method
+5. 
