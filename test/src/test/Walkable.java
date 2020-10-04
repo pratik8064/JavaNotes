@@ -10,8 +10,13 @@ package test;
 
 
 public interface Walkable {
-
-	public boolean canWalk();
-	public int getLegs();
+	
+	final int k = 0;
+	
+	static int p = 6;
+	
+	boolean canWalk();
+	
+	int getLegs();
 	
 }

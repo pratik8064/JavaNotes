@@ -3,9 +3,9 @@
  */
 package test;
 
-public abstract class Person {
+public abstract class Person implements Walkable{
 
-	public String name;
+	String name;
 	public String contactNo;
 	public String address;
 	int marks = 200;
@@ -48,8 +48,24 @@ public abstract class Person {
 	
 	public void test() {
 		System.out.println("This is test function in persons class");
-		
-		// 
+	}
+
+	/* (non-Javadoc)
+	 * @see test.Walkable#canWalk()
+	 */
+	@Override
+	public boolean canWalk() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	/* (non-Javadoc)
+	 * @see test.Walkable#getLegs()
+	 */
+	@Override
+	public int getLegs() {
+		// TODO Auto-generated method stub
+		return 0;
 	}
 
 }

@@ -1,21 +1,46 @@
 Object oriented concepts
 
 1. Abstraction
+
 - interface
+
 - abstract class
-- difference between abstract and interface
+
+- difference between abstract and interface (remaining)
 
 
 2. Inheritance
 
 - dimond problem
-- method overriding - signature same but implementation different        
+
+- method overriding - signature same but implementation different
     1. method with same signature but with different implementation
     2. gets checked at runtime
+
 - method overloading
     1. signature different, implementation same/different
     2.gets checked at compile time.
+
 -super keyword
     - can be used with variable
     - can be used with method
     - can be used with constuctor
+
+
+3. Polymorphism
+    
+    - compile time Polymorphism / static 
+    
+    - run time Polymorphism / dynamic  - e.g. Method Override
+
+    example List interface, ArrayList, LinkedList use this interface
+
+
+
+4. Encapsulation
+    private
+    public
+    protected
+    default
+
+    data hiding

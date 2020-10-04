@@ -21,6 +21,7 @@ public class Student extends Person implements Walkable {
 	private Boolean isGrad;
 	private HashMap<String, Integer> grades;
 	int marks = 100;
+	private int fee;
 	
 	public Student() {
 		//super();
@@ -93,8 +94,13 @@ public class Student extends Person implements Walkable {
 	}
 	
 	public void test(int x) {
-		super.test();
-		System.out.println("This is test with "+ x +"method in student");
+		//super.test();
+		System.out.println("This is test with int "+ x +" method in student");
+	}
+	
+	public void test(double x) {
+		//super.test();
+		System.out.println("This is test with double "+ x +" method in student");
 	}
 
 	/* (non-Javadoc)
@@ -114,6 +120,28 @@ public class Student extends Person implements Walkable {
 		// TODO Auto-generated method stub
 		return 0;
 	}
+	
+	
+	public void printAnimalDetails(Animal a) {
+		
+		
+	}
+
+	/**
+	 * @return the fee
+	 */
+	public int getFee() {
+		return fee;
+	}
+
+	/**
+	 * @param fee the fee to set
+	 */
+	public void setFee(int fee) {
+		this.fee = fee;
+	}
+	
+	
 	
 	// Student file changes
 	

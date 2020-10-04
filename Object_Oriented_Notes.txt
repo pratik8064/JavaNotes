@@ -49,7 +49,6 @@ b- Local- within scope of method including "Method input argument"
         this keyword is used
 
 
-8.default Constructor gets bypass by custom Constructor so we have to write new Constructor like default constructor like empty.
 8.default Constructor gets overriden by custom Constructor, so we have to write new Constructor like default constructor like empty.
     1. default constructor privided by system if no constructor is wrriten.
     2. if you write any custom constructor then default constructor gets overriden, if  you want to use constructor with no arguments then
