@@ -12,7 +12,7 @@ public abstract class Person {
 	
 //	public Person() {
 //		System.out.println("person construction with no inputs");
-//	}	
+//	}
 	
 	public Person() {
 		
